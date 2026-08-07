@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e9e5cee089e8e0cc0e09305116a4618",
+    "content-hash": "6c32896dbccf67f51a1225e913d61385",
     "packages": [
         {
             "name": "psr/container",
@@ -1112,16 +1112,16 @@
         },
         {
             "name": "phalcon/ide-stubs",
-            "version": "v5.17.0",
+            "version": "v5.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/ide-stubs.git",
-                "reference": "17c9ae4782a6acf3dfa4fffa22a28db01d21d830"
+                "reference": "c06e5e4304d5c38e009dbe2f03a7b70cd44fa804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/17c9ae4782a6acf3dfa4fffa22a28db01d21d830",
-                "reference": "17c9ae4782a6acf3dfa4fffa22a28db01d21d830",
+                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/c06e5e4304d5c38e009dbe2f03a7b70cd44fa804",
+                "reference": "c06e5e4304d5c38e009dbe2f03a7b70cd44fa804",
                 "shasum": ""
             },
             "require": {
@@ -1177,20 +1177,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-07-17T21:26:17+00:00"
+            "time": "2026-08-03T14:12:56+00:00"
         },
         {
             "name": "phalcon/phalcon",
-            "version": "v6.0.0alpha3",
+            "version": "v6.0.0beta6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/phalcon.git",
-                "reference": "a8233051d7839e2ea2bdd477447251fbdeeb7c70"
+                "reference": "d1e211d84363fdee7a7deaedf9369a9d4bffc513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/phalcon/zipball/a8233051d7839e2ea2bdd477447251fbdeeb7c70",
-                "reference": "a8233051d7839e2ea2bdd477447251fbdeeb7c70",
+                "url": "https://api.github.com/repos/phalcon/phalcon/zipball/d1e211d84363fdee7a7deaedf9369a9d4bffc513",
+                "reference": "d1e211d84363fdee7a7deaedf9369a9d4bffc513",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
                 "ext-pdo": "*",
                 "ext-xml": "*",
                 "matthiasmullie/minify": "^1.3",
-                "phalcon/traits": "^3.0",
+                "phalcon/traits": "^4.0",
                 "php": ">=8.1 <9.0",
                 "psr/event-dispatcher": "^1.0"
             },
@@ -1211,6 +1211,8 @@
                 "pds/composer-script-names": "^1.0",
                 "pds/skeleton": "^1.0",
                 "phalcon/phql": "1.0.x-dev",
+                "phalcon/quill": "dev-master",
+                "phalcon/talon": "^0.9.0",
                 "phalcon/volt": "1.0.x-dev",
                 "phpbench/phpbench": "^1.4",
                 "phpstan/phpstan": "^2.2",
@@ -1247,7 +1249,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phalcon/phalcon/issues",
-                "source": "https://github.com/phalcon/phalcon/tree/v6.0.0alpha3"
+                "source": "https://github.com/phalcon/phalcon/tree/v6.0.0beta6"
             },
             "funding": [
                 {
@@ -1259,20 +1261,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-06-29T17:24:45+00:00"
+            "time": "2026-08-03T01:07:43+00:00"
         },
         {
             "name": "phalcon/talon",
-            "version": "v0.9.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/talon.git",
-                "reference": "ca1a825a4b3167802f0987d41122657dc817f259"
+                "reference": "0289a3e0794520269a133fd3a789981329bb612c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/talon/zipball/ca1a825a4b3167802f0987d41122657dc817f259",
-                "reference": "ca1a825a4b3167802f0987d41122657dc817f259",
+                "url": "https://api.github.com/repos/phalcon/talon/zipball/0289a3e0794520269a133fd3a789981329bb612c",
+                "reference": "0289a3e0794520269a133fd3a789981329bb612c",
                 "shasum": ""
             },
             "require": {
@@ -1289,7 +1291,7 @@
                 "friendsofphp/php-cs-fixer": "^3",
                 "pds/composer-script-names": "^1",
                 "pds/skeleton": "^1",
-                "phalcon/phalcon": "^6.0@alpha || ^6.0 || ^6.0",
+                "phalcon/phalcon": "^6.0@alpha || ^6.0 || ^6.0 || ^6.0",
                 "phpstan/phpstan": "^2",
                 "phpunit/phpcov": "^9",
                 "phpunit/phpunit": "^10.5",
@@ -1325,7 +1327,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phalcon/talon/issues",
-                "source": "https://github.com/phalcon/talon/tree/v0.9.0"
+                "source": "https://github.com/phalcon/talon/tree/v1.0.1"
             },
             "funding": [
                 {
@@ -1337,20 +1339,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-07-30T19:51:18+00:00"
+            "time": "2026-08-07T15:49:55+00:00"
         },
         {
             "name": "phalcon/traits",
-            "version": "3.0.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/traits.git",
-                "reference": "978b7fd9a4756ce66e3c05c146438cd44c981379"
+                "reference": "4e4412a78475af2d08f7e82e48e577e2a40b6896"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/traits/zipball/978b7fd9a4756ce66e3c05c146438cd44c981379",
-                "reference": "978b7fd9a4756ce66e3c05c146438cd44c981379",
+                "url": "https://api.github.com/repos/phalcon/traits/zipball/4e4412a78475af2d08f7e82e48e577e2a40b6896",
+                "reference": "4e4412a78475af2d08f7e82e48e577e2a40b6896",
                 "shasum": ""
             },
             "require": {
@@ -1359,41 +1361,55 @@
                 "php": ">=8.1 <9.0"
             },
             "require-dev": {
-                "codeception/codeception": "^5.0",
-                "codeception/module-asserts": "^3.0",
-                "codeception/module-filesystem": "^3.0",
-                "codeception/module-phpbrowser": "^3.0",
+                "friendsofphp/php-cs-fixer": "^3.75",
+                "infection/infection": "^0.29.9",
+                "pds/composer-script-names": "^1.0",
                 "pds/skeleton": "^1.0",
-                "phpstan/phpstan": "^1.9",
+                "phalcon/talon": "^0.7",
+                "phpstan/phpstan": "^2.2",
                 "phpunit/phpunit": "^10.5",
-                "squizlabs/php_codesniffer": "^3.7",
-                "vlucas/phpdotenv": "^5.5"
+                "squizlabs/php_codesniffer": "^4.0"
             },
             "suggest": {
-                "ext-gettext": "*",
-                "ext-yaml": "*"
+                "ext-apcu": "For Php\\ApcuTrait",
+                "ext-gettext": "For the gettext-based translation helpers",
+                "ext-igbinary": "For Php\\IgbinaryTrait",
+                "ext-msgpack": "For Php\\MsgpackTrait",
+                "ext-yaml": "For Php\\YamlTrait"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Phalcon\\Traits\\": "src/",
-                    "Phalcon\\Tests\\Unit\\": "tests/unit/",
-                    "Phalcon\\Tests\\Fixtures\\": "tests/support/fixtures/"
+                    "Phalcon\\Traits\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD-3-Clause"
             ],
-            "description": "Phalcon Framework Traits",
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalcon.io",
+                    "homepage": "https://phalcon.io/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/traits/graphs/contributors"
+                }
+            ],
+            "description": "Phalcon Framework reusable traits",
+            "homepage": "https://phalcon.io",
             "keywords": [
                 "framework",
+                "phalcon",
                 "php",
                 "traits"
             ],
             "support": {
+                "discord": "https://phalcon.io/discord/",
                 "issues": "https://github.com/phalcon/traits/issues",
-                "source": "https://github.com/phalcon/traits/tree/3.0.0"
+                "source": "https://github.com/phalcon/traits"
             },
             "funding": [
                 {
@@ -1405,7 +1421,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-02-11T15:46:57+00:00"
+            "time": "2026-07-10T19:24:02+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -1602,11 +1618,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.2.7",
+            "version": "2.2.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/692db47b9dddb0487934e5236e77d48594aef921",
-                "reference": "692db47b9dddb0487934e5236e77d48594aef921",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e285254e60f33c21902efef4a926ca0987c06804",
+                "reference": "e285254e60f33c21902efef4a926ca0987c06804",
                 "shasum": ""
             },
             "require": {
@@ -1662,7 +1678,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-29T17:39:32+00:00"
+            "time": "2026-08-04T22:21:45+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1987,24 +2003,24 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.63",
+            "version": "10.5.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "33198268dad71e926626b618f3ec3966661e4d90"
+                "reference": "0e8c1d19cea35ad97d4887f363d07c78e30fbf06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/33198268dad71e926626b618f3ec3966661e4d90",
-                "reference": "33198268dad71e926626b618f3ec3966661e4d90",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0e8c1d19cea35ad97d4887f363d07c78e30fbf06",
+                "reference": "0e8c1d19cea35ad97d4887f363d07c78e30fbf06",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
+                "ext-filter": "*",
                 "ext-json": "*",
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
-                "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "myclabs/deep-copy": "^1.13.4",
                 "phar-io/manifest": "^2.0.4",
@@ -2068,31 +2084,15 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.63"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.64"
             },
             "funding": [
                 {
-                    "url": "https://phpunit.de/sponsors.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpunit/phpunit",
-                    "type": "tidelift"
+                    "url": "https://phpunit.de/sponsoring.html",
+                    "type": "other"
                 }
             ],
-            "time": "2026-01-27T05:48:37+00:00"
+            "time": "2026-07-06T14:50:35+00:00"
         },
         {
             "name": "psr/event-dispatcher",
@@ -3675,19 +3675,20 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "4.0.1",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "0525c73950de35ded110cffafb9892946d7771b5"
+                "reference": "bbdc3d0532623e21838b7041a4364383a8126f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/0525c73950de35ded110cffafb9892946d7771b5",
-                "reference": "0525c73950de35ded110cffafb9892946d7771b5",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/bbdc3d0532623e21838b7041a4364383a8126f96",
+                "reference": "bbdc3d0532623e21838b7041a4364383a8126f96",
                 "shasum": ""
             },
             "require": {
+                "ext-libxml": "*",
                 "ext-simplexml": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
@@ -3695,6 +3696,10 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.4.0 || ^9.3.4 || ^10.5.32 || 11.3.3 - 11.5.28 || ^11.5.31"
+            },
+            "suggest": {
+                "ext-iconv": "For accurate character length calculation when the checked files contain multi-byte characters.",
+                "ext-pcntl": "For parallel processing support via the --parallel CLI option."
             },
             "bin": [
                 "bin/phpcbf",
@@ -3750,7 +3755,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-11-10T16:43:36+00:00"
+            "time": "2026-08-06T02:45:27+00:00"
         },
         {
             "name": "symfony/browser-kit",
@@ -5897,7 +5902,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phalcon/phalcon": 15
+        "phalcon/phalcon": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
